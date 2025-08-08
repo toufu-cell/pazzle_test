@@ -1,56 +1,56 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TestRun id="578310c1-42be-4bca-adf3-bd946ab0face" name="@cursor 2025-08-08 06:15:50" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2025-08-08T06:15:50.7368153+00:00" queuing="2025-08-08T06:15:50.7368153+00:00" start="2025-08-08T06:15:50.2337979+00:00" finish="2025-08-08T06:15:50.7420718+00:00" />
-  <TestSettings name="default" id="1b6e4510-0492-4c45-af29-c2babbf72454">
-    <Deployment runDeploymentRoot="_cursor_2025-08-08_06_15_50" />
+<TestRun id="a4aa45ed-fc16-427f-8f63-0a1edc03d102" name="@cursor 2025-08-08 06:18:25" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-08T06:18:25.6306119+00:00" queuing="2025-08-08T06:18:25.6306119+00:00" start="2025-08-08T06:18:25.1114853+00:00" finish="2025-08-08T06:18:25.6356020+00:00" />
+  <TestSettings name="default" id="b105eb80-98be-4669-b4ab-39e4f73c582a">
+    <Deployment runDeploymentRoot="_cursor_2025-08-08_06_18_25" />
   </TestSettings>
   <Results>
-    <UnitTestResult executionId="07b07dd9-c440-48b9-8b82-80bcacda4ffc" testId="2aead066-6fac-bb6f-1e0a-abe056b7a76a" testName="FallingPuzzle.Tests.BoardTests.LineClear_ScoresAndLevelsAndCombos" computerName="cursor" duration="00:00:00.0127506" startTime="2025-08-08T06:15:50.6477037+00:00" endTime="2025-08-08T06:15:50.6477039+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07b07dd9-c440-48b9-8b82-80bcacda4ffc" />
-    <UnitTestResult executionId="cb7072e0-c9e5-47d3-98a0-c5e333c9fe1e" testId="4febc8bf-34ac-e79c-d760-db0a7747cf29" testName="FallingPuzzle.Tests.BoardTests.GhostDistance_IsZeroWhenTouching" computerName="cursor" duration="00:00:00.0004631" startTime="2025-08-08T06:15:50.6481508+00:00" endTime="2025-08-08T06:15:50.6481511+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb7072e0-c9e5-47d3-98a0-c5e333c9fe1e" />
-    <UnitTestResult executionId="b20efbcf-000a-4a5f-8c66-97ebd1cf8ec3" testId="5110d05e-4583-5132-8a7c-979c8a4c589a" testName="FallingPuzzle.Tests.UnitTest1.Test1" computerName="cursor" duration="00:00:00.0016025" startTime="2025-08-08T06:15:50.6390245+00:00" endTime="2025-08-08T06:15:50.6390650+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b20efbcf-000a-4a5f-8c66-97ebd1cf8ec3" />
-    <UnitTestResult executionId="6d955bbd-0314-4fe8-8741-823eb47b94e4" testId="11df5ebd-b616-016f-1c2b-39e65748f3e8" testName="FallingPuzzle.Tests.BoardTests.SevenBag_IsDeterministic_WithSeed" computerName="cursor" duration="00:00:00.0056556" startTime="2025-08-08T06:15:50.6589772+00:00" endTime="2025-08-08T06:15:50.6589773+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6d955bbd-0314-4fe8-8741-823eb47b94e4" />
-    <UnitTestResult executionId="022b67ab-2fae-441a-9ddd-43cca1cb8bce" testId="797d6e1e-3ead-39a7-29b9-2dbb8c321b88" testName="FallingPuzzle.Tests.BoardTests.Rotation_UsesSrsKicks_WhenBlockedByWall" computerName="cursor" duration="00:00:00.0045347" startTime="2025-08-08T06:15:50.6529827+00:00" endTime="2025-08-08T06:15:50.6529828+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="022b67ab-2fae-441a-9ddd-43cca1cb8bce" />
-    <UnitTestResult executionId="c609bf12-e11f-4ec0-a4eb-67f940c7d907" testId="37c5e449-c58a-526e-b24a-5aaf6e4e2d7e" testName="FallingPuzzle.Tests.BoardTests.HardDrop_LocksAndReturnsDistance" computerName="cursor" duration="00:00:00.0001526" startTime="2025-08-08T06:15:50.6485052+00:00" endTime="2025-08-08T06:15:50.6485053+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c609bf12-e11f-4ec0-a4eb-67f940c7d907" />
-    <UnitTestResult executionId="d616169a-9dc0-45fc-bef6-56c099df8b48" testId="445306fa-4d30-a8e1-ff07-c04967e85bd8" testName="FallingPuzzle.Tests.BoardTests.Board_SpawnAndMoveWithinBounds" computerName="cursor" duration="00:00:00.0002691" startTime="2025-08-08T06:15:50.6533696+00:00" endTime="2025-08-08T06:15:50.6533697+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d616169a-9dc0-45fc-bef6-56c099df8b48" />
+    <UnitTestResult executionId="e48b5fd4-268d-4880-b486-a39be72eb416" testId="37c5e449-c58a-526e-b24a-5aaf6e4e2d7e" testName="FallingPuzzle.Tests.BoardTests.HardDrop_LocksAndReturnsDistance" computerName="cursor" duration="00:00:00.0001273" startTime="2025-08-08T06:18:25.5396356+00:00" endTime="2025-08-08T06:18:25.5396357+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e48b5fd4-268d-4880-b486-a39be72eb416" />
+    <UnitTestResult executionId="c7220831-0795-4101-9157-4276e2b55c18" testId="445306fa-4d30-a8e1-ff07-c04967e85bd8" testName="FallingPuzzle.Tests.BoardTests.Board_SpawnAndMoveWithinBounds" computerName="cursor" duration="00:00:00.0002616" startTime="2025-08-08T06:18:25.5445604+00:00" endTime="2025-08-08T06:18:25.5445605+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7220831-0795-4101-9157-4276e2b55c18" />
+    <UnitTestResult executionId="624dfaef-7c8e-4be7-be9f-e3e94d553b7f" testId="5110d05e-4583-5132-8a7c-979c8a4c589a" testName="FallingPuzzle.Tests.UnitTest1.Test1" computerName="cursor" duration="00:00:00.0015938" startTime="2025-08-08T06:18:25.5303017+00:00" endTime="2025-08-08T06:18:25.5303151+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="624dfaef-7c8e-4be7-be9f-e3e94d553b7f" />
+    <UnitTestResult executionId="ff263c1b-eec1-4c11-b106-dfd9a79f11ca" testId="4febc8bf-34ac-e79c-d760-db0a7747cf29" testName="FallingPuzzle.Tests.BoardTests.GhostDistance_IsZeroWhenTouching" computerName="cursor" duration="00:00:00.0004484" startTime="2025-08-08T06:18:25.5393173+00:00" endTime="2025-08-08T06:18:25.5393174+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff263c1b-eec1-4c11-b106-dfd9a79f11ca" />
+    <UnitTestResult executionId="28ceacf6-8cfa-4d89-939b-a7faf0eb219f" testId="2aead066-6fac-bb6f-1e0a-abe056b7a76a" testName="FallingPuzzle.Tests.BoardTests.LineClear_ScoresAndLevelsAndCombos" computerName="cursor" duration="00:00:00.0125834" startTime="2025-08-08T06:18:25.5389519+00:00" endTime="2025-08-08T06:18:25.5389520+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28ceacf6-8cfa-4d89-939b-a7faf0eb219f" />
+    <UnitTestResult executionId="3a22c23f-432b-4d4f-8a5c-79c317cb61a7" testId="11df5ebd-b616-016f-1c2b-39e65748f3e8" testName="FallingPuzzle.Tests.BoardTests.SevenBag_IsDeterministic_WithSeed" computerName="cursor" duration="00:00:00.0059898" startTime="2025-08-08T06:18:25.5506065+00:00" endTime="2025-08-08T06:18:25.5506066+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a22c23f-432b-4d4f-8a5c-79c317cb61a7" />
+    <UnitTestResult executionId="957a74a2-6e74-417e-8e78-5fe5199e640e" testId="797d6e1e-3ead-39a7-29b9-2dbb8c321b88" testName="FallingPuzzle.Tests.BoardTests.Rotation_UsesSrsKicks_WhenBlockedByWall" computerName="cursor" duration="00:00:00.0045788" startTime="2025-08-08T06:18:25.5442668+00:00" endTime="2025-08-08T06:18:25.5442669+00:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="957a74a2-6e74-417e-8e78-5fe5199e640e" />
   </Results>
   <TestDefinitions>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.HardDrop_LocksAndReturnsDistance" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="37c5e449-c58a-526e-b24a-5aaf6e4e2d7e">
-      <Execution id="c609bf12-e11f-4ec0-a4eb-67f940c7d907" />
+      <Execution id="e48b5fd4-268d-4880-b486-a39be72eb416" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="HardDrop_LocksAndReturnsDistance" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.Rotation_UsesSrsKicks_WhenBlockedByWall" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="797d6e1e-3ead-39a7-29b9-2dbb8c321b88">
-      <Execution id="022b67ab-2fae-441a-9ddd-43cca1cb8bce" />
+      <Execution id="957a74a2-6e74-417e-8e78-5fe5199e640e" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="Rotation_UsesSrsKicks_WhenBlockedByWall" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.SevenBag_IsDeterministic_WithSeed" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="11df5ebd-b616-016f-1c2b-39e65748f3e8">
-      <Execution id="6d955bbd-0314-4fe8-8741-823eb47b94e4" />
+      <Execution id="3a22c23f-432b-4d4f-8a5c-79c317cb61a7" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="SevenBag_IsDeterministic_WithSeed" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.Board_SpawnAndMoveWithinBounds" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="445306fa-4d30-a8e1-ff07-c04967e85bd8">
-      <Execution id="d616169a-9dc0-45fc-bef6-56c099df8b48" />
+      <Execution id="c7220831-0795-4101-9157-4276e2b55c18" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="Board_SpawnAndMoveWithinBounds" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.GhostDistance_IsZeroWhenTouching" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="4febc8bf-34ac-e79c-d760-db0a7747cf29">
-      <Execution id="cb7072e0-c9e5-47d3-98a0-c5e333c9fe1e" />
+      <Execution id="ff263c1b-eec1-4c11-b106-dfd9a79f11ca" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="GhostDistance_IsZeroWhenTouching" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.UnitTest1.Test1" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="5110d05e-4583-5132-8a7c-979c8a4c589a">
-      <Execution id="b20efbcf-000a-4a5f-8c66-97ebd1cf8ec3" />
+      <Execution id="624dfaef-7c8e-4be7-be9f-e3e94d553b7f" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.UnitTest1" name="Test1" />
     </UnitTest>
     <UnitTest name="FallingPuzzle.Tests.BoardTests.LineClear_ScoresAndLevelsAndCombos" storage="/workspace/fallingpuzzle.tests/bin/debug/net8.0/fallingpuzzle.tests.dll" id="2aead066-6fac-bb6f-1e0a-abe056b7a76a">
-      <Execution id="07b07dd9-c440-48b9-8b82-80bcacda4ffc" />
+      <Execution id="28ceacf6-8cfa-4d89-939b-a7faf0eb219f" />
       <TestMethod codeBase="/workspace/FallingPuzzle.Tests/bin/Debug/net8.0/FallingPuzzle.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FallingPuzzle.Tests.BoardTests" name="LineClear_ScoresAndLevelsAndCombos" />
     </UnitTest>
   </TestDefinitions>
   <TestEntries>
-    <TestEntry testId="2aead066-6fac-bb6f-1e0a-abe056b7a76a" executionId="07b07dd9-c440-48b9-8b82-80bcacda4ffc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="4febc8bf-34ac-e79c-d760-db0a7747cf29" executionId="cb7072e0-c9e5-47d3-98a0-c5e333c9fe1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="5110d05e-4583-5132-8a7c-979c8a4c589a" executionId="b20efbcf-000a-4a5f-8c66-97ebd1cf8ec3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="11df5ebd-b616-016f-1c2b-39e65748f3e8" executionId="6d955bbd-0314-4fe8-8741-823eb47b94e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="797d6e1e-3ead-39a7-29b9-2dbb8c321b88" executionId="022b67ab-2fae-441a-9ddd-43cca1cb8bce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="37c5e449-c58a-526e-b24a-5aaf6e4e2d7e" executionId="c609bf12-e11f-4ec0-a4eb-67f940c7d907" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
-    <TestEntry testId="445306fa-4d30-a8e1-ff07-c04967e85bd8" executionId="d616169a-9dc0-45fc-bef6-56c099df8b48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37c5e449-c58a-526e-b24a-5aaf6e4e2d7e" executionId="e48b5fd4-268d-4880-b486-a39be72eb416" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="445306fa-4d30-a8e1-ff07-c04967e85bd8" executionId="c7220831-0795-4101-9157-4276e2b55c18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5110d05e-4583-5132-8a7c-979c8a4c589a" executionId="624dfaef-7c8e-4be7-be9f-e3e94d553b7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4febc8bf-34ac-e79c-d760-db0a7747cf29" executionId="ff263c1b-eec1-4c11-b106-dfd9a79f11ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aead066-6fac-bb6f-1e0a-abe056b7a76a" executionId="28ceacf6-8cfa-4d89-939b-a7faf0eb219f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11df5ebd-b616-016f-1c2b-39e65748f3e8" executionId="3a22c23f-432b-4d4f-8a5c-79c317cb61a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="797d6e1e-3ead-39a7-29b9-2dbb8c321b88" executionId="957a74a2-6e74-417e-8e78-5fe5199e640e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
   </TestEntries>
   <TestLists>
     <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
@@ -61,9 +61,9 @@
     <Output>
       <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.19)
 [xUnit.net 00:00:00.05]   Discovering: FallingPuzzle.Tests
-[xUnit.net 00:00:00.07]   Discovered:  FallingPuzzle.Tests
-[xUnit.net 00:00:00.07]   Starting:    FallingPuzzle.Tests
-[xUnit.net 00:00:00.13]   Finished:    FallingPuzzle.Tests
+[xUnit.net 00:00:00.08]   Discovered:  FallingPuzzle.Tests
+[xUnit.net 00:00:00.08]   Starting:    FallingPuzzle.Tests
+[xUnit.net 00:00:00.14]   Finished:    FallingPuzzle.Tests
 </StdOut>
     </Output>
   </ResultSummary>

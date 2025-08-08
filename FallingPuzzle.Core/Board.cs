@@ -61,7 +61,7 @@ namespace FallingPuzzle.Core
 
         private readonly Cell[,] _cells;
 
-        public FallingPiece Current { get; private set; }
+        public FallingPiece Current { get; private set; } = null!;
         public TetrominoType? Hold { get; private set; }
         public bool HoldUsedThisTurn { get; private set; }
         public SevenBag Bag { get; }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FallingPuzzle.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd1f6adf496aa3afde1ca2b8aba806a677685081")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78d384a763990e4d053f8037134b460ca9e39c24")]
 [assembly: System.Reflection.AssemblyProductAttribute("FallingPuzzle.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FallingPuzzle.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
