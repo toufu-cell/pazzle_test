@@ -1,0 +1,10 @@
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.AssemblyInfoInputs.cache
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.AssemblyInfo.cs
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.csproj.CoreCompileInputs.cache
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.sourcelink.json
+/workspace/FallingPuzzle.Core/bin/Debug/netstandard2.1/FallingPuzzle.Core.deps.json
+/workspace/FallingPuzzle.Core/bin/Debug/netstandard2.1/FallingPuzzle.Core.dll
+/workspace/FallingPuzzle.Core/bin/Debug/netstandard2.1/FallingPuzzle.Core.pdb
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.dll
+/workspace/FallingPuzzle.Core/obj/Debug/netstandard2.1/FallingPuzzle.Core.pdb

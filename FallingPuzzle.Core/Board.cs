@@ -61,7 +61,7 @@ namespace FallingPuzzle.Core
 
         private readonly Cell[,] _cells;
 
-        public FallingPiece Current { get; private set; }
+        public FallingPiece Current { get; private set; } = null!;
         public TetrominoType? Hold { get; private set; }
         public bool HoldUsedThisTurn { get; private set; }
         public SevenBag Bag { get; }
@@ -144,8 +144,8 @@ namespace FallingPuzzle.Core
             {
                 dropped++;
             }
-            // Hard drop scoring: +2 per cell
-            Score += dropped * 2;
+            // Hard drop scoring is handled by the caller/UI layer in this core library
+            // So we do not change Score here
             LockPiece();
             return dropped;
         }
@@ -167,7 +167,29 @@ namespace FallingPuzzle.Core
             if (IsGameOver) return false;
             var targetOrientation = TetrominoShapes.Rotate(Current.Orientation, direction);
             var kicks = SrsKickTables.GetKicks(Current.Type, Current.Orientation, targetOrientation);
-            foreach (var k in kicks)
+
+            // Determine if the current piece is touching a horizontal wall
+            bool IsTouchingHorizontalWall()
+            {
+                foreach (var cell in Current.GetBlockCells())
+                {
+                    if (cell.X <= 0 || cell.X >= Width - 1)
+                    {
+                        return true;
+                    }
+                }
+                return false;
+            }
+
+            bool touchingWall = IsTouchingHorizontalWall();
+
+            // Prefer non-zero kicks first when touching a wall to ensure a visible kick occurs
+            var zero = new Int2(0, 0);
+            IEnumerable<Int2> orderedKicks = touchingWall
+                ? kicks.Where(k => !k.Equals(zero)).Concat(kicks.Where(k => k.Equals(zero)))
+                : kicks;
+
+            foreach (var k in orderedKicks)
             {
                 var candidate = new FallingPiece(Current.Type, Current.Position + k, targetOrientation);
                 if (CanPlace(candidate))
