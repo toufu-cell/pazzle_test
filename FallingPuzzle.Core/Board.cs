@@ -7,13 +7,13 @@ namespace FallingPuzzle.Core
     public enum Cell
     {
         Empty = -1,
-        I = TetrominoType.I,
-        O = TetrominoType.O,
-        T = TetrominoType.T,
-        S = TetrominoType.S,
-        Z = TetrominoType.Z,
-        J = TetrominoType.J,
-        L = TetrominoType.L
+        I = 0,
+        O = 1,
+        T = 2,
+        S = 3,
+        Z = 4,
+        J = 5,
+        L = 6
     }
 
     public sealed class FallingPiece
@@ -126,7 +126,16 @@ namespace FallingPuzzle.Core
 
         public bool MoveLeft() => TryMove(new Int2(-1, 0));
         public bool MoveRight() => TryMove(new Int2(1, 0));
-        public bool SoftDrop() => TryMove(new Int2(0, -1));
+        public bool SoftDrop()
+        {
+            bool moved = TryMove(new Int2(0, -1));
+            if (moved)
+            {
+                // Soft drop scoring: +1 per cell
+                Score += 1;
+            }
+            return moved;
+        }
 
         public int HardDrop()
         {
@@ -135,8 +144,9 @@ namespace FallingPuzzle.Core
             {
                 dropped++;
             }
+            // Hard drop scoring: +2 per cell
+            Score += dropped * 2;
             LockPiece();
-            // scoring for hard drop handled by caller if needed; we return cells dropped
             return dropped;
         }
 
@@ -199,11 +209,20 @@ namespace FallingPuzzle.Core
             }
         }
 
+        public void SetCurrentUnsafe(FallingPiece piece)
+        {
+            if (!CanPlace(piece))
+            {
+                throw new InvalidOperationException($"Cannot place piece {piece.Type} at {piece.Position} with {piece.Orientation}");
+            }
+            Current = piece;
+        }
+
         private void LockPiece()
         {
             foreach (var c in Current.GetBlockCells())
             {
-                _cells[c.X, c.Y] = (Cell)Current.Type;
+                _cells[c.X, c.Y] = (Cell)((int)Current.Type);
             }
             ResolveLinesAndScore();
             SpawnNewPiece();

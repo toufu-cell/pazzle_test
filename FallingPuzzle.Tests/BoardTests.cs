@@ -53,13 +53,9 @@ namespace FallingPuzzle.Tests
         [Fact]
         public void LineClear_ScoresAndLevelsAndCombos()
         {
-            var board = new Board(width: 4, height: 4, hiddenTopRows: 0, seed: 999);
-            // Manually stack to force a single line clear using I piece hard drop twice
-            // First piece
-            board.Current = new FallingPiece(TetrominoType.I, new Int2(1, 3), Orientation.Right);
-            board.HardDrop();
-            // Second piece to fill line
-            board.Current = new FallingPiece(TetrominoType.I, new Int2(0, 3), Orientation.Spawn);
+            var board = new Board(width: 4, height: 6, hiddenTopRows: 0, seed: 999);
+            // Single horizontal I to complete one full row
+            board.SetCurrentUnsafe(new FallingPiece(TetrominoType.I, new Int2(1, 5), Orientation.Spawn));
             board.HardDrop();
 
             board.LinesClearedTotal.Should().BeGreaterThan(0);
